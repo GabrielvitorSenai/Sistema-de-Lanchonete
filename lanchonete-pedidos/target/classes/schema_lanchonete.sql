@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS lanchonete_db_teste
+CREATE DATABASE IF NOT EXISTS lanchonete_db_sa
   DEFAULT CHARACTER SET utf8mb4
   DEFAULT COLLATE utf8mb4_unicode_ci;
 
-USE lanchonete_db_teste;
+USE lanchonete_db_sa;
 
 CREATE TABLE cliente (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
